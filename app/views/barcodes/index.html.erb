@@ -1,0 +1,15 @@
+<h1>
+  Barcodes examples
+</h1>
+<p>
+  Example barcode as ascii code. Unfortunatelly can not be read.
+</p>
+<div class="ascii">
+  <%= @barcode.to_ascii %>
+</div>
+
+<p>
+  Example barcode printed to html.
+</p>
+
+<%= raw @barcode_for_html.to_html %>
